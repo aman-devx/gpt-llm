@@ -1,23 +1,23 @@
-# 🚀 Custom LLM Built from Scratch
+# Custom LLM Built from Scratch
 
 ![Project Banner](./assets/banner.png)
 
-A lightweight **Large Language Model (LLM)** built completely from scratch, trained on **10M tokens** with a **2M parameter architecture**.
+A lightweight **Large Language Model (LLM)** built completely from scratch, trained on **10M tokens** with a **50M parameter architecture**.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project demonstrates the complete pipeline of building an LLM from scratch, including tokenization, training, and inference.
 
-- 🔢 Dataset Size: **10 Million Tokens**
-- 🧠 Model Size: **2 Million Parameters**
-- ⚙️ Architecture: **Transformer**
-- 🎯 Purpose: **Learning + Experimentation**
+- Dataset Size: **471 Million Tokens**
+- Model Size: **49 Million Parameters**
+- Architecture: **Transformer**
+- Purpose: **Learning + Experimentation**
 
 ---
 
-## 🖼️ Model Architecture
+## Model Architecture
 
 ![Model Architecture](./assets/architecture.png)
 
@@ -27,13 +27,13 @@ This project demonstrates the complete pipeline of building an LLM from scratch,
 
 - **Language:** Python 🐍  
 - **Framework:** PyTorch  
-- **Tokenizer:** Custom / BPE  
+- **Tokenizer:** tiktoken
 - **Data Processing:** NumPy, Pandas  
 - **Visualization:** Matplotlib  
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 - Transformer Decoder Architecture  
 - Multi-Head Self Attention  
@@ -43,32 +43,36 @@ This project demonstrates the complete pipeline of building an LLM from scratch,
 
 ---
 
-## ⚙️ Features
+## Features
 
-- ✅ Built completely from scratch  
-- ✅ Custom tokenizer pipeline  
-- ✅ Efficient training loop  
-- ✅ Text generation support  
-- ✅ Lightweight and fast  
+- Built completely from scratch  
+- Custom tokenizer pipeline  
+- Efficient training loop  
+- Text generation support  
+- Lightweight and fast  
 
 ---
 
-## 📊 Training Process
+## Training Process
 
-![Training Loss Graph](./assets/loss.png)
+![Training Loss Graph](./images/output.png)
 
-- Tokens: **10M**
-- Parameters: **2M**
+- Tokens: **471M**
+- Parameters: **49M**
 - Optimizer: **Adam / AdamW**
 - Loss Function: **CrossEntropyLoss**
 - Task: **Next Token Prediction**
 
 ---
 
-## 🧪 Example Output
+## Example Output
 
-![Inference Example](./assets/output.png)
+![Inference Example](./images/img4.png)
 
 ```txt
-Input: "The future of AI is"
-Output: "The future of AI is transforming industries with intelligent systems..."
+Input: "A little girl went to the woods"
+Output: "A little girl went to the woods and saw the famous animals playies racing. She heard a strange noise and saw loud splash ambulance and ran off to take the food. But when the yacht started to move she could not fit so well that the animals couldn't see her. Soon, the ants would catch all around the house for it, but they didn't want him.
+
+But one day, the measuring of the boat said, "Ewed!" and said, "My jug felt cool and envious." Everyone was so happy they had lots of fun together and time of fun.Once upon a time, there could crashing and soaking up all the bees lived in a tall tree. Every night, where the sea would kept all the bees by and cuddled like how the bird did. 
+
+One day, playing in th"
