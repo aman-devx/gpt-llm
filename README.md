@@ -1,8 +1,7 @@
 # Custom LLM Built from Scratch
 
-![Project Banner](./assets/banner.png)
 
-A lightweight **Large Language Model (LLM)** built completely from scratch, trained on **10M tokens** with a **50M parameter architecture**.
+A lightweight **Large Language Model (LLM)** built completely from scratch, trained on **471M Tokens** with a **49M Parameters**.
 
 ---
 
@@ -14,12 +13,6 @@ This project demonstrates the complete pipeline of building an LLM from scratch,
 - Model Size: **49 Million Parameters**
 - Architecture: **Transformer**
 - Purpose: **Learning + Experimentation**
-
----
-
-## Model Architecture
-
-![Model Architecture](./assets/architecture.png)
 
 ---
 
@@ -76,3 +69,10 @@ Output: "A little girl went to the woods and saw the famous animals playies raci
 But one day, the measuring of the boat said, "Ewed!" and said, "My jug felt cool and envious." Everyone was so happy they had lots of fun together and time of fun.Once upon a time, there could crashing and soaking up all the bees lived in a tall tree. Every night, where the sea would kept all the bees by and cuddled like how the bird did. 
 
 One day, playing in th"
+
+---
+
+## Build Api in fastapi
+
+![Inference Example](./images/img1.png)
+
