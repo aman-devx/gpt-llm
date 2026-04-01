@@ -1,9 +1,7 @@
 # Custom LLM Built from Scratch
 
-
 A lightweight **Large Language Model (LLM)** built completely from scratch, trained on **471M Tokens** with a **49M Parameters**.
 
----
 
 ## Overview
 
@@ -14,17 +12,15 @@ This project demonstrates the complete pipeline of building an LLM from scratch,
 - Architecture: **Transformer**
 - Purpose: **Learning + Experimentation**
 
----
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Language:** Python 🐍  
+- **Language:** Python 
 - **Framework:** PyTorch  
 - **Tokenizer:** tiktoken
 - **Data Processing:** NumPy, Pandas  
 - **Visualization:** Matplotlib  
 
----
 
 ## Model Details
 
@@ -34,7 +30,7 @@ This project demonstrates the complete pipeline of building an LLM from scratch,
 - Feed Forward Layers  
 - Residual Connections & LayerNorm  
 
----
+
 
 ## Features
 
@@ -44,7 +40,7 @@ This project demonstrates the complete pipeline of building an LLM from scratch,
 - Text generation support  
 - Lightweight and fast  
 
----
+
 
 ## Training Process
 
@@ -56,7 +52,7 @@ This project demonstrates the complete pipeline of building an LLM from scratch,
 - Loss Function: **CrossEntropyLoss**
 - Task: **Next Token Prediction**
 
----
+
 
 ## Example Output
 
@@ -69,8 +65,8 @@ Output: "A little girl went to the woods and saw the famous animals playies raci
 But one day, the measuring of the boat said, "Ewed!" and said, "My jug felt cool and envious." Everyone was so happy they had lots of fun together and time of fun.Once upon a time, there could crashing and soaking up all the bees lived in a tall tree. Every night, where the sea would kept all the bees by and cuddled like how the bird did. 
 
 One day, playing in th"
+```
 
----
 
 ## Build Api in fastapi
 
