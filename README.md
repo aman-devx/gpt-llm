@@ -26,16 +26,16 @@ This project demonstrates the complete pipeline of building an LLM from scratch,
 
 Follow these steps to run the project locally:
 
-# 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/aman-devx/gpt-llm.git
 cd your-repo
 
 ```
 
-# 2. Create Virtual Environment
+### 2. Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -43,11 +43,15 @@ venv\Scripts\activate
 ```
 
 
-pip install -r requirements.txt
+### 3. install requirements and run
 
+```bash
+
+pip install -r requirements.txt
 
 python api.py
 
+```
 
 ## Model Details
 
