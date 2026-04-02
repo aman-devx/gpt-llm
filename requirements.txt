@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+torch
+tiktoken
+pydantic
+python-multipart

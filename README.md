@@ -22,6 +22,33 @@ This project demonstrates the complete pipeline of building an LLM from scratch,
 - **Visualization:** Matplotlib  
 
 
+## Setup Instructions
+
+Follow these steps to run the project locally:
+
+# 1. Clone the Repository
+
+```bash
+
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+```
+
+# 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+
+pip install -r requirements.txt
+
+
+python api.py
+
+
 ## Model Details
 
 - Transformer Decoder Architecture  
